@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000";
+export const BASE_URL = "https://resume-builder-mern-77ja.onrender.com";
 
 // Routes used for frontend
 export const API_PATHS = {

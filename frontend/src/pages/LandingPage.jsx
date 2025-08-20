@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import { ArrowRight, Download, LayoutTemplate, Menu, X, Zap } from 'lucide-react';
 import { landingPageStyles } from "../assets/dummystyle.js"
 import { UserContext } from '../context/UserContext.jsx';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { ProfileInfoCard } from '../components/Cards.jsx';
 import Modal from '../components/Modal.jsx';
 import Login from '../components/Login.jsx';
@@ -316,7 +316,7 @@ const LandingPage = () => {
         <div className={landingPageStyles.footerContainer}>
           <p className={landingPageStyles.footerText}>
             Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{' '}
-            <a href='https://skiper-ui.com' target="_blank" className={landingPageStyles.footerLink}>Mayank Digital Services</a>
+            <Link href='#' target="_blank" className={landingPageStyles.footerLink}>Mayank Digital Services</Link>
           </p>
         </div>
       </footer>

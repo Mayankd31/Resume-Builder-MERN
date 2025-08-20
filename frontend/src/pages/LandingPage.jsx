@@ -316,7 +316,7 @@ const LandingPage = () => {
         <div className={landingPageStyles.footerContainer}>
           <p className={landingPageStyles.footerText}>
             Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{' '}
-            <Link href='#' target="_blank" className={landingPageStyles.footerLink}>Mayank Digital Services</Link>
+            <Link href='#' className={landingPageStyles.footerLink}>Mayank Digital Services</Link>
           </p>
         </div>
       </footer>
